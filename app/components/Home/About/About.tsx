@@ -6,7 +6,7 @@ import user from '../../../assets/About/user.jpeg'
 
 const About = () => {
     return (
-        <div className='py-16 lg:container mx-5 lg:mx-auto'>
+        <div className='py-16 xl:container mx-5 xl:mx-auto'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 items-center'>
                 {/* Image Container */}
                 <div>
@@ -27,7 +27,7 @@ const About = () => {
                     <div className='mt-8 border-l-2 border-gray-200'>
                         <div className='ml-6'>
                             <p className='text-gray-700 font-medium'>
-                                &quot; The many integrations that can be linked really help me see data from other tools I also use. &quot;
+                                &quot;The many integrations that can be linked really help me see data from other tools I also use.&quot;
                             </p>
                             <div className='flex items-center space-x-6 mt-6'>
                                 <Image src={user} alt='user' width={40} height={40} className='rounded-full'></Image>
