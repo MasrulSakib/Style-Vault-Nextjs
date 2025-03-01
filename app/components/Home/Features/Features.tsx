@@ -14,8 +14,8 @@ const Features = () => {
                     Our product stands out with its high performance, delivering blazing-fast speeds and seamless multitasking
                 </p>
             </div>
-            <div className='xl:container xl:mx-auto mx-5 mt-16 grid grid-cols-1 xl:grid-cols-2 gap-10 items-center justify-center'>
-                <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center'>
+            <div className='xl:container xl:mx-auto mx-5 mt-16 grid grid-cols-1 xl:grid-cols-2 gap-10 items-center'>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
                     <div className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
                             <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-500 bg-opacity-20'>
@@ -26,8 +26,9 @@ const Features = () => {
                             </h1>
                         </div>
                         <p className='my-3 text-gray-700 leading-relaxed'>
-                            Seamlessly connect your favorite apps with StyleVault for a smooth shopping experience. Enjoy effortless synchronization,
-                            secure transactions, and real-time updates to enhance your fashion journey. Stay connected, stay stylish!
+                            Seamlessly connect your favorite apps with StyleVault for a smooth shopping experience.
+                            Enjoy secure transactions, real-time updates, and effortless synchronization to enhance
+                            your fashion journey with convenience and reliability.
                         </p>
                     </div>
                     <div className='bg-white p-4 rounded-lg'>
