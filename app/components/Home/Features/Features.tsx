@@ -16,7 +16,9 @@ const Features = () => {
             </div>
             <div className='xl:container xl:mx-auto mx-5 mt-16 grid grid-cols-1 xl:grid-cols-2 gap-10 items-center'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-                    <div className='bg-white p-4 rounded-lg'>
+                    <div data-aos="fade-right"
+                        anchor-placement="top-center"
+                        className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
                             <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                                 <MdOutlineTouchApp className='w-6 h-6 text-orange-400' />
@@ -31,7 +33,11 @@ const Features = () => {
                             your fashion journey with convenience and reliability.
                         </p>
                     </div>
-                    <div className='bg-white p-4 rounded-lg'>
+                    <div
+                        data-aos="fade-right"
+                        anchor-placement="top-center"
+                        data-aos-delay="100"
+                        className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
                             <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                                 <GoWorkflow className='w-6 h-6 text-orange-400' />
@@ -47,7 +53,11 @@ const Features = () => {
                             performance.
                         </p>
                     </div>
-                    <div className='bg-white p-4 rounded-lg'>
+                    <div
+                        data-aos="fade-right"
+                        anchor-placement="top-center"
+                        data-aos-delay="200"
+                        className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
                             <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                                 <LuPin className='w-6 h-6 text-orange-400' />
@@ -63,7 +73,11 @@ const Features = () => {
                             and fast delivery—making fashion effortless for you!
                         </p>
                     </div>
-                    <div className='bg-white p-4 rounded-lg'>
+                    <div
+                        data-aos="fade-right"
+                        anchor-placement="top-center"
+                        data-aos-delay="300"
+                        className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
                             <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                                 <MdAccessAlarm className='w-6 h-6 text-orange-400' />
@@ -80,7 +94,11 @@ const Features = () => {
                         </p>
                     </div>
                 </div>
-                <div className='mx-auto'>
+                <div
+                    data-aos="fade-left"
+                    anchor-placement="top-center"
+                    data-aos-delay="400"
+                    className='mx-auto'>
                     <Image
                         src={feature}
                         alt='feature'

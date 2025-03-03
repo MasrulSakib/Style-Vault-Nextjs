@@ -24,7 +24,10 @@ const Services = () => {
                     made effortless with StyleVault!
                 </p>
                 <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-center gap-y-12 mt-16'>
-                    <div className='flex items-center space-x-5'>
+                    <div
+                        data-aos="fade-right"
+                        anchor-placement="top-center"
+                        className='flex items-center space-x-5'>
                         <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                             <FaRocket className='w-6 h-6 text-orange-400' />
                         </div>
@@ -33,7 +36,11 @@ const Services = () => {
                             <p className='text-sm text-gray-600'>Innovate, grow, succeed, transform ideas into reality.</p>
                         </div>
                     </div>
-                    <div className='flex items-center space-x-5'>
+                    <div
+                        data-aos="fade-right"
+                        anchor-placement="top-center"
+                        data-aos-delay="100"
+                        className='flex items-center space-x-5'>
                         <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                             <BsFillBriefcaseFill className='w-6 h-6 text-orange-400' />
                         </div>
@@ -42,7 +49,11 @@ const Services = () => {
                             <p className='text-sm text-gray-600'>Build, grow, and achieve success with strategic solutions.</p>
                         </div>
                     </div>
-                    <div className='flex items-center space-x-5'>
+                    <div
+                        data-aos="fade-right"
+                        anchor-placement="top-center"
+                        data-aos-delay="200"
+                        className='flex items-center space-x-5'>
                         <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                             <FaShoppingCart className='w-6 h-6 text-orange-400' />
                         </div>
@@ -51,7 +62,11 @@ const Services = () => {
                             <p className='text-sm text-gray-600'>Seamless shopping, fast shipping, and endless possibilities.</p>
                         </div>
                     </div>
-                    <div className='flex items-center space-x-5'>
+                    <div
+                        data-aos="fade-right"
+                        anchor-placement="top-center"
+                        data-aos-delay="300"
+                        className='flex items-center space-x-5'>
                         <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                             <TbCircuitGroundDigital className='w-6 h-6 text-orange-400' />
                         </div>
@@ -60,7 +75,11 @@ const Services = () => {
                             <p className='text-sm text-gray-600'>Creative visuals, innovative, and seamless experiences.</p>
                         </div>
                     </div>
-                    <div className='flex items-center space-x-5'>
+                    <div
+                        data-aos="fade-right"
+                        anchor-placement="top-center"
+                        data-aos-delay="400"
+                        className='flex items-center space-x-5'>
                         <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                             <IoMdColorPalette className='w-6 h-6 text-orange-400' />
                         </div>
@@ -69,7 +88,11 @@ const Services = () => {
                             <p className='text-sm text-gray-600'>Innovate, grow, succeed, transform ideas into reality.</p>
                         </div>
                     </div>
-                    <div className='flex items-center space-x-5'>
+                    <div
+                        data-aos="fade-right"
+                        anchor-placement="top-center"
+                        data-aos-delay="500"
+                        className='flex items-center space-x-5'>
                         <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                             <FaChess className='w-6 h-6 text-orange-400' />
                         </div>

@@ -10,21 +10,32 @@ const Pricing = () => {
                     Choose from flexible, affordable pricing plans designed to fit your needs, budget, and style.
                 </p>
                 <div className='mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 xl:container xl:mx-auto mx-5'>
-                    <div>
+                    <div
+                        data-aos="fade-up"
+                        anchor-placement="top-center"
+                    >
                         <PriceCard time='1 Month Membership'
                             price='9.99'
                             description='Enjoy exclusive discounts, priority access, and seamless
                              shopping benefits for a month—perfect for short-term flexibility.'
                         />
                     </div>
-                    <div>
+                    <div
+                        data-aos="fade-up"
+                        anchor-placement="top-center"
+                        data-aos-delay="100"
+                    >
                         <PriceCard time='3 Months Membership'
                             price='19.99'
                             description='Unlock premium perks, early access, and savings for
                              three months—ideal for extended shopping convenience and ideas.'
                         />
                     </div>
-                    <div>
+                    <div
+                        data-aos="fade-up"
+                        anchor-placement="top-center"
+                        data-aos-delay="200"
+                    >
                         <PriceCard time='Life Time Membership'
                             price='199.99'
                             description='Get unlimited benefits, exclusive deals, and VIP access

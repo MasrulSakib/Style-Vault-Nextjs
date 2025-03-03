@@ -9,7 +9,7 @@ const About = () => {
         <div className='py-16 xl:container mx-5 xl:mx-auto'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 items-center'>
                 {/* Image Container */}
-                <div>
+                <div data-aos="zoom-in" data-aos-placement="top-center">
                     <Image src={model} alt='model' width={600} height={600} className='bg-transparent'></Image>
                 </div>
                 {/* text content */}

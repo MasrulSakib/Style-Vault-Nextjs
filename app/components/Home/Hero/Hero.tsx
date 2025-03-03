@@ -11,7 +11,7 @@ const Hero = () => {
     return (
         <div className='xl:container mx-5 xl:mx-auto'>
             <div className='flex flex-col lg:flex-row md:gap-5 xl:gap-10 justify-between items-center lg:h-[110vh] sm:h-screen mt-[50px]'>
-                <div className='grid lg:grid-cols-1 justify-center items-center gap-10'>
+                <div data-aos="fade-up" className='grid lg:grid-cols-1 justify-center items-center gap-10'>
                     <div>
                         <p className='text-sm sm:text-base md:text-xl font-bold text-blue-950'>Make The Smallest Investment</p>
                         <h2 className='text-2xl md:text-3xl lg:text-4xl mt-6 mb-6 font-bold text-blue-950 leading-[2.5rem] md:leading-[3.5rem]'>
@@ -74,7 +74,7 @@ const Hero = () => {
                         </Link>
                     </div>
                 </div>
-                <div className='hidden lg:block max-w-[50%]'>
+                <div data-aos="fade-down" data-aos-delay="150" className='hidden lg:block max-w-[50%]'>
                     <Image src={bannar}
                         alt='bannar'
                         className='w-full rounded-3xl'

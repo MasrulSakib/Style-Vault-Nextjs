@@ -19,16 +19,31 @@ const ClientsReview = () => {
                 and effortless style solutions.
             </p>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center mt-16 xl:container mx-5 xl:mx-auto'>
-                <div>
+                <div
+                    data-aos="zoom-in"
+                    anchor-placement="top-center"
+                >
                     <ClientsReviewCard image={image1} ratings='4.7' name="Rasberry" />
                 </div>
-                <div>
+                <div
+                    data-aos="zoom-in"
+                    anchor-placement="top-center"
+                    data-aos-delay="100"
+                >
                     <ClientsReviewCard image={image2} ratings='4.5' name="Blackberry" />
                 </div>
-                <div>
+                <div
+                    data-aos="zoom-in"
+                    anchor-placement="top-center"
+                    data-aos-delay="200"
+                >
                     <ClientsReviewCard image={image3} ratings='4.3' name="Blueberry" />
                 </div>
-                <div>
+                <div
+                    data-aos="zoom-in"
+                    anchor-placement="top-center"
+                    data-aos-delay="300"
+                >
                     <ClientsReviewCard image={image4} ratings='4.9' name="Strawberry" />
                 </div>
             </div>
