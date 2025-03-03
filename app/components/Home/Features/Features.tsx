@@ -18,7 +18,7 @@ const Features = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
                     <div className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
-                            <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-500 bg-opacity-20'>
+                            <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                                 <MdOutlineTouchApp className='w-6 h-6 text-orange-400' />
                             </div>
                             <h1 className='text-lg font-bold text-gray-700'>
@@ -33,7 +33,7 @@ const Features = () => {
                     </div>
                     <div className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
-                            <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-500 bg-opacity-20'>
+                            <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                                 <GoWorkflow className='w-6 h-6 text-orange-400' />
                             </div>
                             <h1 className='text-lg font-bold text-gray-700'>
@@ -49,7 +49,7 @@ const Features = () => {
                     </div>
                     <div className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
-                            <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-500 bg-opacity-20'>
+                            <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                                 <LuPin className='w-6 h-6 text-orange-400' />
                             </div>
                             <h1 className='text-lg font-bold text-gray-700'>
@@ -65,7 +65,7 @@ const Features = () => {
                     </div>
                     <div className='bg-white p-4 rounded-lg'>
                         <div className='flex items-center space-x-3'>
-                            <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-500 bg-opacity-20'>
+                            <div className='w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                                 <MdAccessAlarm className='w-6 h-6 text-orange-400' />
                             </div>
                             <h1 className='text-lg font-bold text-gray-700'>

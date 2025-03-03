@@ -25,7 +25,7 @@ const Services = () => {
                 </p>
                 <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-center gap-y-12 mt-16'>
                     <div className='flex items-center space-x-5'>
-                        <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-500 bg-opacity-20'>
+                        <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                             <FaRocket className='w-6 h-6 text-orange-400' />
                         </div>
                         <div>
@@ -34,7 +34,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className='flex items-center space-x-5'>
-                        <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-500 bg-opacity-20'>
+                        <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                             <BsFillBriefcaseFill className='w-6 h-6 text-orange-400' />
                         </div>
                         <div>
@@ -43,7 +43,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className='flex items-center space-x-5'>
-                        <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-500 bg-opacity-20'>
+                        <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                             <FaShoppingCart className='w-6 h-6 text-orange-400' />
                         </div>
                         <div>
@@ -52,7 +52,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className='flex items-center space-x-5'>
-                        <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-500 bg-opacity-20'>
+                        <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                             <TbCircuitGroundDigital className='w-6 h-6 text-orange-400' />
                         </div>
                         <div>
@@ -61,7 +61,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className='flex items-center space-x-5'>
-                        <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-500 bg-opacity-20'>
+                        <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                             <IoMdColorPalette className='w-6 h-6 text-orange-400' />
                         </div>
                         <div>
@@ -70,7 +70,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className='flex items-center space-x-5'>
-                        <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-500 bg-opacity-20'>
+                        <div className='w-14 h-14 rounded-md flex items-center justify-center flex-col bg-pink-200 bg-opacity-20'>
                             <FaChess className='w-6 h-6 text-orange-400' />
                         </div>
                         <div>
