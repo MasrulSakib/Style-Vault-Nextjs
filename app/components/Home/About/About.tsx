@@ -32,7 +32,7 @@ const About = () => {
                             <div className='flex items-center space-x-6 mt-6'>
                                 <Image src={user} alt='user' width={40} height={40} className='rounded-full'></Image>
                                 <div>
-                                    <p className='font-medium'>Roan Doe</p>
+                                    <p className='font-medium text-blue-950'>Roan Doe</p>
                                     <p className='text-gray-700 text-sm'>Web Developer @TechDev</p>
                                 </div>
                             </div>
