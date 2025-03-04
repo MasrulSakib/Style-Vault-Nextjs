@@ -6,7 +6,7 @@ import user from '../../../assets/About/user.jpeg'
 
 const About = () => {
     return (
-        <div className='py-16 xl:container mx-5 xl:mx-auto'>
+        <div className='py-16 xl:container mx-5 xl:mx-auto overflow-hidden'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 items-center'>
                 {/* Image Container */}
                 <div data-aos="zoom-in" data-aos-placement="top-center">

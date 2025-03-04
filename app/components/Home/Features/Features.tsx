@@ -7,7 +7,7 @@ import feature from '../../../assets/Features/Features_prev_ui.png'
 
 const Features = () => {
     return (
-        <div className='py-16 bg-gray-100'>
+        <div className='py-16 bg-gray-100 overflow-hidden'>
             <div>
                 <h1 className='text-center text-2xl text-blue-950 font-bold'>Key Features Of The Products</h1>
                 <p className='mt-3 text-center font-medium text-gray-700 w-[90%] mx-auto sm:w-[70%] md:w-[50%]'>

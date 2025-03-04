@@ -7,22 +7,22 @@ export const NavLinks = [
     {
         id: 2,
         href: '#',
-        labal: 'Features'
+        labal: 'About'
     },
     {
         id: 3,
         href: '#',
-        labal: 'Services'
+        labal: 'Features'
     },
     {
         id: 4,
         href: '#',
-        labal: 'Reviews'
+        labal: 'Services'
     },
     {
         id: 5,
         href: '#',
-        labal: 'About'
+        labal: 'Reviews'
     },
     {
         id: 6,

@@ -28,7 +28,7 @@ const Navbar = ({ openNav }: Props) => {
 
     return (
         <div className={`flex justify-between items-center ${navbg ? 'bg-white shadow-lg shadow-blue-200' : 'fixed]'}
-         transition-all duration-200 h-[12vh] px-4 lg:px-10  w-full z-[1000]`}>
+         transition-all duration-200 h-[12vh] px-4 lg:px-10 fixed top-0 w-full z-[100]`}>
             {/* Logo */}
             <div className='flex items-center h-full space-x-3'>
                 <div className='w-10 h-10 bg-blue-800 rounded-full flex justify-center items-center flex-col'>

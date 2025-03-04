@@ -7,7 +7,7 @@ import team2 from '../../../assets/Team/team2.jpg'
 
 const Team = () => {
     return (
-        <div className='py-16'>
+        <div className='py-16 overflow-hidden'>
             <div className='xl:container xl:mx-auto mx-5'>
                 <div className='grid grid-cols-1 lg:grid-cols-5 gap-10 items-center'>
                     <div className='lg:col-span-2'>

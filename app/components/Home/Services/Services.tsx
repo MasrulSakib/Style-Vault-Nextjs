@@ -8,7 +8,7 @@ import { FaChess } from 'react-icons/fa6';
 
 const Services = () => {
     return (
-        <div className='py-16'>
+        <div className='py-16 overflow-hidden'>
             <div className='xl:container xl:mx-auto mx-5'>
                 <BoxText>Our Services</BoxText>
                 {/* heading */}

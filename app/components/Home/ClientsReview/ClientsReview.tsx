@@ -7,7 +7,7 @@ import image4 from '../../../assets/Clients/4.jpg'
 
 const ClientsReview = () => {
     return (
-        <div className='py-16 bg-gray-100'>
+        <div className='py-16 bg-gray-100 overflow-hidden'>
             {/* Heading */}
             <h1 className='text-center text-2xl text-blue-950 font-bold'>
                 What Our Happy Client Says
