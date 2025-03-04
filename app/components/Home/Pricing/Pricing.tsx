@@ -16,8 +16,7 @@ const Pricing = () => {
                     >
                         <PriceCard time='1 Month Membership'
                             price='9.99'
-                            description='Enjoy exclusive discounts, priority access, and seamless
-                             shopping benefits for a month—perfect for short-term flexibility.'
+                            description='Enjoy exclusive discounts, priority access, and seamless shopping benefits for one month'
                         />
                     </div>
                     <div
@@ -27,8 +26,7 @@ const Pricing = () => {
                     >
                         <PriceCard time='3 Months Membership'
                             price='19.99'
-                            description='Unlock premium perks, early access, and savings for
-                             three months—ideal for extended shopping convenience and ideas.'
+                            description='Unlock premium perks, early access, and great savings for three months with hassle-free shopping.'
                         />
                     </div>
                     <div
@@ -38,8 +36,7 @@ const Pricing = () => {
                     >
                         <PriceCard time='Life Time Membership'
                             price='199.99'
-                            description='Get unlimited benefits, exclusive deals, and VIP access
-                             forever—your ultimate fashion experience, hassle-free!'
+                            description='Get unlimited benefits, exclusive deals, and VIP access forever with a seamless shopping experience.'
                         />
                     </div>
                 </div>
