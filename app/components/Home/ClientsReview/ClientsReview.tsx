@@ -18,7 +18,7 @@ const ClientsReview = () => {
                 fast shipping, and excellent support. Join thousands who trust StyleVault for trendy, reliable,
                 and effortless style solutions.
             </p>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center mt-16 xl:container mx-5 xl:mx-auto'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 mt-16 xl:container mx-5 xl:mx-auto'>
                 <div
                     data-aos="zoom-in"
                     anchor-placement="top-center"

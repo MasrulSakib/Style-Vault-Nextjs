@@ -10,13 +10,13 @@ type Props = {
 
 const ClientsReviewCard = ({ image, ratings, name }: Props) => {
     return (
-        <div className='bg-white  shadow-md p-8 sm:flex space-y-4 sm:space-y-0 space-x-6 rounded-lg'>
-            <div className='min-w-[40%] xl:min-w-[20%]'>
+        <div className='bg-white shadow-md p-8 sm:flex space-y-4 sm:space-y-0 space-x-6 rounded-lg'>
+            <div className='w-full xl:w-[55%]'>
                 <Image
                     src={image}
                     alt={name}
-                    width={350}
-                    height={350}
+                    width={400}
+                    height={400}
                     className='rounded-lg object-cover w-full h-full'
                 />
             </div>
