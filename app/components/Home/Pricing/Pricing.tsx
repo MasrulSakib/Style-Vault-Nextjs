@@ -3,7 +3,7 @@ import PriceCard from './PriceCard'
 
 const Pricing = () => {
     return (
-        <div className='overflow-hidden'>
+        <div className='overflow-hidden' id='contact'>
             <div className='py-16 bg-gray-100'>
                 <h1 className='text-center text-2xl text-blue-950 font-bold'>Choose The Plan That&apos;s Right For You</h1>
                 <p className='mt-3 text-center font-medium text-gray-700 w-[90%] md:w-[80%] mx-auto'>
